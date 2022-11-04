@@ -35,7 +35,7 @@ export function* getMovies({ genreId, title, limit, offset }) {
   if (title) {
     params.title = title
   }
-  console.log('getMovies', params)
+
   try {
     if (genreId || title) {
       const {
